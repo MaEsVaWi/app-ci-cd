@@ -23,7 +23,7 @@ jobs:
     - name: ✅ run unit test
       run: npm run test
 
-    - name: Upload coverage reports to Codecov
+    - name: 📈Upload coverage reports to Codecov
       uses: codecov/codecov-action@v5
       with:
        token: 2d3673af-c957-400a-b39d-a771beb33857
